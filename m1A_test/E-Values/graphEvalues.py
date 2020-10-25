@@ -47,7 +47,7 @@ with open(NAMES) as nameFile:
 		plt.xticks(x_pos, x, rotation=90, fontsize=5)
 		plt.tight_layout()
 
-		plt.savefig('model2Differentiation.png')
+		plt.show()
 
 
 
