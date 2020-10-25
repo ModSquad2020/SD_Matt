@@ -1,0 +1,6 @@
+You have to run cmalign in infernal to create alignments of tRNAs 
+against an appropriate covariance model in stockholm format, make 
+adjustments to the alignments if needed, then convert stockholm file 
+to csv. 
+
+tRNAscan-SE does not have this function.
