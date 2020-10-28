@@ -3,6 +3,13 @@ sys.path.insert(1, "C:\\Users\\mattk\\Desktop\\python scripts\\todd stuff\\BioTo
 from sequenceAnalysis import FastAreader
 import pandas as pd
 
+'''
+Given an aligned fasta (yeast) file
+This program will write the output to a 
+csv
+
+'''
+
 fileToDisplay = "sacCer3-trnaalign.fa"
 
 tRNAdic = {}
@@ -29,4 +36,4 @@ df = pd.DataFrame.from_dict(tRNAdic, orient='index', columns=columns)
 pd.set_option('display.max_columns', None)
 #pd.set_option('display.max_rows', None)
 pd.options.display.max_colwidth = 1000
-print( df )
+df.to_csv('sacCer_column.csv')
