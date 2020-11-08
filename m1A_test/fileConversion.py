@@ -1,4 +1,5 @@
 from Bio import SeqIO
 
-SeqIO.convert('sacCer3-trnaalign.stk', 'stockholm', 'sacCer3-trnaalign.fa', 'fasta')
+filepath = "TestingNNN/"
+SeqIO.convert(filepath+'AlignedUsingEuk.sto', 'stockholm', filepath+'AlignedUsingEuk.fa', 'fasta')
 print('hello')

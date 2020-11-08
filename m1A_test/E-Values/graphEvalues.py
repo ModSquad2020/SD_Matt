@@ -5,8 +5,10 @@ from sequenceAnalysis import FastAreader
 import math
 
 
-NAMES = 'combined_names.txt'
-EVALS = 'combined_bitscores.txt'
+NAMES = 'tRNAnames.txt'
+EVALS = 'eValues.txt'
+
+positiveFasta = "hasM1A.fa"
 
 with open(NAMES) as nameFile:
 	with open(EVALS ) as evalFile:
@@ -16,11 +18,11 @@ with open(NAMES) as nameFile:
 		for name, evalue in zip(nameFile.readlines(), evalFile.readlines()):
 			#print(name[0:name.find(' ')], -math.log10(float( evalue )))
 			NAMES.append(name[0:name.find(' ')])
-			EVALS.append( float( evalue ) ) 
+			EVALS.append( -math.log10(float( evalue )) ) 
 
 		headers=[]
-		for header, sequence in FastAreader('test_against.fa').readFasta():
-			headers.append(header)
+		for header, sequence in FastAreader(positiveFasta).readFasta():
+			headers.append(header.split(' ')[0])
 
 		for name in NAMES:
 			inTest = False
