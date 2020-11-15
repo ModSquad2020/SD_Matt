@@ -1,0 +1,832 @@
+# STOCKHOLM 1.0
+#=GF AU Infernal 1.1.2
+
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1  DE (tRNAscan-SE ID: chrIV.trna3) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrIV:410379-410451 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10 DE (tRNAscan-SE ID: chrXIII.trna9) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrXIII:768369-768441 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11 DE (tRNAscan-SE ID: chrXVI.trna7) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrXVI:856902-856974 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2  DE (tRNAscan-SE ID: chrVI.trna6) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrVI:204924-204996 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3  DE (tRNAscan-SE ID: chrVII.trna15) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrVII:774349-774421 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4  DE (tRNAscan-SE ID: chrVIII.trna8) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrVIII:146242-146314 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5  DE (tRNAscan-SE ID: chrX.trna22) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrX:197313-197385 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6  DE (tRNAscan-SE ID: chrXI.trna4) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrXI:219895-219967 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7  DE (tRNAscan-SE ID: chrXI.trna9) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrXI:517988-518060 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8  DE (tRNAscan-SE ID: chrXII.trna16) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrXII:656934-657006 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9  DE (tRNAscan-SE ID: chrXIII.trna17) Ala (AGC) 73 bp mature sequence Sc: 69.6 chrXIII:321147-321219 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1  DE (tRNAscan-SE ID: chrI.trna2) Ala (TGC) 73 bp mature sequence Sc: 76.0 chrI:166267-166339 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2  DE (tRNAscan-SE ID: chrV.trna16) Ala (TGC) 73 bp mature sequence Sc: 76.0 chrV:312023-312095 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3  DE (tRNAscan-SE ID: chrVII.trna17) Ala (TGC) 73 bp mature sequence Sc: 76.0 chrVII:794417-794489 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4  DE (tRNAscan-SE ID: chrXII.trna20) Ala (TGC) 73 bp mature sequence Sc: 76.0 chrXII:214883-214955 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5  DE (tRNAscan-SE ID: chrXV.trna14) Ala (TGC) 73 bp mature sequence Sc: 76.0 chrXV:854187-854259 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-1  DE (tRNAscan-SE ID: chrIV.trna26) Arg (ACG) 73 bp mature sequence Sc: 69.6 chrIV:619969-620041 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-2  DE (tRNAscan-SE ID: chrV.trna11) Arg (ACG) 73 bp mature sequence Sc: 69.6 chrV:492352-492424 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-3  DE (tRNAscan-SE ID: chrXI.trna8) Arg (ACG) 73 bp mature sequence Sc: 69.6 chrXI:490968-491040 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-4  DE (tRNAscan-SE ID: chrXII.trna2) Arg (ACG) 73 bp mature sequence Sc: 69.6 chrXII:374355-374427 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-5  DE (tRNAscan-SE ID: chrXV.trna18) Arg (ACG) 73 bp mature sequence Sc: 69.6 chrXV:340299-340371 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-ACG-2-1  DE (tRNAscan-SE ID: chrX.trna2) Arg (ACG) 73 bp mature sequence Sc: 68.5 chrX:233939-234011 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-CCG-1-1  DE (tRNAscan-SE ID: chrXII.trna10) Arg (CCG) 72 bp mature sequence Sc: 55.8 chrXII:818609-818680 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-CCT-1-1  DE (tRNAscan-SE ID: chrX.trna10) Arg (CCT) 72 bp mature sequence Sc: 71.7 chrX:538555-538626 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-1  DE (tRNAscan-SE ID: chrII.trna8) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrII:405878-405949 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-10 DE (tRNAscan-SE ID: chrXIII.trna21) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrXIII:131825-131896 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-11 DE (tRNAscan-SE ID: chrXIII.trna10) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrXIII:747892-747963 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-2  DE (tRNAscan-SE ID: chrIV.trna7) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrIV:568882-568953 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-3  DE (tRNAscan-SE ID: chrV.trna3) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrV:138666-138737 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-4  DE (tRNAscan-SE ID: chrVII.trna6) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrVII:405470-405541 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-5  DE (tRNAscan-SE ID: chrVII.trna13) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrVII:736340-736411 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-6  DE (tRNAscan-SE ID: chrVII.trna25) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrVII:828723-828794 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-7  DE (tRNAscan-SE ID: chrX.trna4) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrX:355374-355445 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-8  DE (tRNAscan-SE ID: chrX.trna20) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrX:374506-374577 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-9  DE (tRNAscan-SE ID: chrXI.trna14) Arg (TCT) 72 bp mature sequence Sc: 67.4 chrXI:162487-162558 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-1  DE (tRNAscan-SE ID: chrIII.trna2) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrIII:127716-127789 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-10 DE (tRNAscan-SE ID: chrXVI.trna5) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXVI:810676-810749 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-2  DE (tRNAscan-SE ID: chrVI.trna10) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrVI:137486-137559 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-3  DE (tRNAscan-SE ID: chrVII.trna12) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrVII:731137-731210 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-4  DE (tRNAscan-SE ID: chrXI.trna1) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXI:74624-74697 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-5  DE (tRNAscan-SE ID: chrXII.trna13) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXII:975983-976056 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-6  DE (tRNAscan-SE ID: chrXIV.trna1) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXIV:102716-102789 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-7  DE (tRNAscan-SE ID: chrXIV.trna8) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXIV:632599-632672 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-8  DE (tRNAscan-SE ID: chrXV.trna2) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXV:228331-228404 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-9  DE (tRNAscan-SE ID: chrXV.trna9) Asn (GTT) 74 bp mature sequence Sc: 75.7 chrXV:487439-487512 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-1  DE (tRNAscan-SE ID: chrII.trna9) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrII:405960-406031 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-10 DE (tRNAscan-SE ID: chrX.trna11) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrX:541508-541579 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-11 DE (tRNAscan-SE ID: chrXI.trna11) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrXI:513332-513403 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-12 DE (tRNAscan-SE ID: chrXII.trna3) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrXII:427132-427203 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-13 DE (tRNAscan-SE ID: chrXII.trna8) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrXII:793918-793989 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-14 DE (tRNAscan-SE ID: chrXIII.trna5) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrXIII:463554-463625 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-15 DE (tRNAscan-SE ID: chrXV.trna10) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrXV:571958-572029 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-2  DE (tRNAscan-SE ID: chrIV.trna8) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrIV:568964-569035 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-3  DE (tRNAscan-SE ID: chrVII.trna8) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrVII:531610-531681 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-4  DE (tRNAscan-SE ID: chrVII.trna29) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrVII:544577-544648 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-5  DE (tRNAscan-SE ID: chrIX.trna8) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrIX:324303-324374 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-6  DE (tRNAscan-SE ID: chrIX.trna7) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrIX:336349-336420 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-7  DE (tRNAscan-SE ID: chrX.trna1) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrX:204735-204806 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-8  DE (tRNAscan-SE ID: chrX.trna5) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrX:355456-355527 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-9  DE (tRNAscan-SE ID: chrX.trna21) Asp (GTC) 72 bp mature sequence Sc: 56.4 chrX:374424-374495 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Asp-GTC-2-1  DE (tRNAscan-SE ID: chrXIV.trna13) Asp (GTC) 71 bp mature sequence Sc: 27.2 chrXIV:519099-519169 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-1  DE (tRNAscan-SE ID: chrII.trna11) Cys (GCA) 72 bp mature sequence Sc: 78.6 chrII:643007-643078 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-2  DE (tRNAscan-SE ID: chrVII.trna26) Cys (GCA) 72 bp mature sequence Sc: 78.6 chrVII:707108-707179 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-3  DE (tRNAscan-SE ID: chrXVI.trna14) Cys (GCA) 72 bp mature sequence Sc: 78.6 chrXVI:435893-435964 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-4  DE (tRNAscan-SE ID: chrXVI.trna10) Cys (GCA) 72 bp mature sequence Sc: 78.6 chrXVI:775765-775836 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-CTG-1-1  DE (tRNAscan-SE ID: chrXIII.trna8) Gln (CTG) 72 bp mature sequence Sc: 59.8 chrXIII:808246-808317 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1  DE (tRNAscan-SE ID: chrV.trna19) Gln (TTG) 72 bp mature sequence Sc: 67.4 chrV:131082-131153 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1  DE (tRNAscan-SE ID: chrIII.trna6) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrIII:168301-168372 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2  DE (tRNAscan-SE ID: chrIV.trna6) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrIV:520972-521043 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3  DE (tRNAscan-SE ID: chrIV.trna25) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrIV:645153-645224 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4  DE (tRNAscan-SE ID: chrIV.trna23) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrIV:802731-802802 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5  DE (tRNAscan-SE ID: chrV.trna6) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrV:250286-250357 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6  DE (tRNAscan-SE ID: chrVIII.trna2) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrVIII:134321-134392 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7  DE (tRNAscan-SE ID: chrXII.trna19) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrXII:448650-448721 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1  DE (tRNAscan-SE ID: chrII.trna7) Gln (TTG) 72 bp mature sequence Sc: 63.6 chrII:350827-350898 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1  DE (tRNAscan-SE ID: chrIV.trna21) Glu (CTC) 72 bp mature sequence Sc: 56.3 chrIV:1017207-1017278 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2  DE (tRNAscan-SE ID: chrIX.trna2) Glu (CTC) 72 bp mature sequence Sc: 56.3 chrIX:197592-197663 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1  DE (tRNAscan-SE ID: chrII.trna10) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrII:645167-645238 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10 DE (tRNAscan-SE ID: chrX.trna23) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrX:115939-116010 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11 DE (tRNAscan-SE ID: chrXI.trna15) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrXI:141018-141089 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12 DE (tRNAscan-SE ID: chrXII.trna9) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrXII:797178-797249 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13 DE (tRNAscan-SE ID: chrXVI.trna16) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrXVI:210192-210263 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2  DE (tRNAscan-SE ID: chrIII.trna10) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrIII:82462-82533 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3  DE (tRNAscan-SE ID: chrV.trna4) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrV:177099-177170 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4  DE (tRNAscan-SE ID: chrV.trna7) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrV:354934-355005 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5  DE (tRNAscan-SE ID: chrV.trna12) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrV:487331-487402 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6  DE (tRNAscan-SE ID: chrVII.trna5) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrVII:328583-328654 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7  DE (tRNAscan-SE ID: chrVII.trna32) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrVII:401527-401598 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8  DE (tRNAscan-SE ID: chrVII.trna9) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrVII:541850-541921 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9  DE (tRNAscan-SE ID: chrIX.trna6) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrIX:370417-370488 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1  DE (tRNAscan-SE ID: chrXIII.trna2) Glu (TTC) 72 bp mature sequence Sc: 52.3 chrXIII:290801-290872 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1  DE (tRNAscan-SE ID: chrXV.trna16) Gly (CCC) 72 bp mature sequence Sc: 79.7 chrXV:594354-594425 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1  DE (tRNAscan-SE ID: chrIV.trna17) Gly (CCC) 72 bp mature sequence Sc: 75.0 chrIV:1257008-1257079 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1  DE (tRNAscan-SE ID: chrII.trna13) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrII:197629-197699 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10 DE (tRNAscan-SE ID: chrX.trna18) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrX:396726-396796 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11 DE (tRNAscan-SE ID: chrX.trna9) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrX:531828-531898 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12 DE (tRNAscan-SE ID: chrXIII.trna20) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrXIII:183898-183968 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13 DE (tRNAscan-SE ID: chrXV.trna19) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrXV:226611-226681 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14 DE (tRNAscan-SE ID: chrXV.trna4) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrXV:282164-282234 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15 DE (tRNAscan-SE ID: chrXVI.trna1) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrXVI:572269-572339 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16 DE (tRNAscan-SE ID: chrXVI.trna8) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrXVI:860379-860449 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2  DE (tRNAscan-SE ID: chrIII.trna8) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrIII:142701-142771 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3  DE (tRNAscan-SE ID: chrIV.trna1) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrIV:83548-83618 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4  DE (tRNAscan-SE ID: chrIV.trna11) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrIV:992832-992902 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5  DE (tRNAscan-SE ID: chrV.trna20) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrV:61890-61960 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6  DE (tRNAscan-SE ID: chrVI.trna2) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrVI:162228-162298 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7  DE (tRNAscan-SE ID: chrVI.trna8) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrVI:180974-181044 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8  DE (tRNAscan-SE ID: chrVII.trna19) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrVII:845649-845719 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9  DE (tRNAscan-SE ID: chrVII.trna22) Gly (GCC) 71 bp mature sequence Sc: 62.0 chrVII:930953-931023 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1  DE (tRNAscan-SE ID: chrVII.trna16) Gly (TCC) 72 bp mature sequence Sc: 58.7 chrVII:779616-779687 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2  DE (tRNAscan-SE ID: chrXIV.trna14) Gly (TCC) 72 bp mature sequence Sc: 58.7 chrXIV:96241-96312 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3  DE (tRNAscan-SE ID: chrXV.trna20) Gly (TCC) 72 bp mature sequence Sc: 58.7 chrXV:110962-111033 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-1  DE (tRNAscan-SE ID: chrV.trna5) His (GTG) 72 bp mature sequence Sc: 57.7 chrV:207357-207428 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-2  DE (tRNAscan-SE ID: chrV.trna15) His (GTG) 72 bp mature sequence Sc: 57.7 chrV:434541-434612 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-3  DE (tRNAscan-SE ID: chrVII.trna35) His (GTG) 72 bp mature sequence Sc: 57.7 chrVII:110625-110696 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-4  DE (tRNAscan-SE ID: chrVII.trna4) His (GTG) 72 bp mature sequence Sc: 57.7 chrVII:319781-319852 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-5  DE (tRNAscan-SE ID: chrVIII.trna1) His (GTG) 72 bp mature sequence Sc: 57.7 chrVIII:62755-62826 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-6  DE (tRNAscan-SE ID: chrXI.trna12) His (GTG) 72 bp mature sequence Sc: 57.7 chrXI:313401-313472 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-His-GTG-1-7  DE (tRNAscan-SE ID: chrXIII.trna4) His (GTG) 72 bp mature sequence Sc: 57.7 chrXIII:363064-363135 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-1  DE (tRNAscan-SE ID: chrII.trna3) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrII:197494-197567 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-10 DE (tRNAscan-SE ID: chrXIV.trna11) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrXIV:569867-569940 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-11 DE (tRNAscan-SE ID: chrXIV.trna7) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrXIV:602312-602385 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-12 DE (tRNAscan-SE ID: chrXVI.trna6) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrXVI:819529-819602 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-13 DE (tRNAscan-SE ID: chrXVI.trna9) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrXVI:880296-880369 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-2  DE (tRNAscan-SE ID: chrIV.trna24) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrIV:668007-668080 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-3  DE (tRNAscan-SE ID: chrV.trna13) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrV:443202-443275 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-4  DE (tRNAscan-SE ID: chrV.trna10) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrV:551285-551358 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-5  DE (tRNAscan-SE ID: chrVII.trna14) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrVII:739122-739195 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-6  DE (tRNAscan-SE ID: chrIX.trna10) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrIX:183440-183513 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-7  DE (tRNAscan-SE ID: chrIX.trna3) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrIX:210665-210738 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-8  DE (tRNAscan-SE ID: chrXII.trna6) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrXII:734802-734875 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-9  DE (tRNAscan-SE ID: chrXII.trna12) Ile (AAT) 74 bp mature sequence Sc: 71.4 chrXII:1052071-1052144 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-TAT-1-1  DE (tRNAscan-SE ID: chrIV.trna9) Ile (TAT) 73 bp mature sequence Sc: 69.7 chrIV:884361-884493 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ile-TAT-2-1  DE (tRNAscan-SE ID: chrXII.trna17) Ile (TAT) 73 bp mature sequence Sc: 69.7 chrXII:605300-605432 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-1  DE (tRNAscan-SE ID: chrI.trna3) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrI:181141-181254 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-10 DE (tRNAscan-SE ID: chrXIV.trna4) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrXIV:443006-443119 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-2  DE (tRNAscan-SE ID: chrIII.trna1) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrIII:90859-90972 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-3  DE (tRNAscan-SE ID: chrIV.trna15) Leu (CAA) 82 bp mature sequence Sc: 56.7 chrIV:1461715-1461829 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-4  DE (tRNAscan-SE ID: chrVII.trna3) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrVII:205521-205634 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-5  DE (tRNAscan-SE ID: chrVII.trna7) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrVII:423092-423205 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-6  DE (tRNAscan-SE ID: chrVII.trna24) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrVII:857378-857491 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-7  DE (tRNAscan-SE ID: chrXI.trna7) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrXI:458557-458670 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-8  DE (tRNAscan-SE ID: chrXII.trna4) Leu (CAA) 82 bp mature sequence Sc: 56.7 chrXII:628383-628497 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-9  DE (tRNAscan-SE ID: chrXIII.trna6) Leu (CAA) 82 bp mature sequence Sc: 56.8 chrXIII:504895-505008 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-GAG-1-1  DE (tRNAscan-SE ID: chrVII.trna11) Leu (GAG) 82 bp mature sequence Sc: 67.6 chrVII:700675-700756 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-1  DE (tRNAscan-SE ID: chrII.trna1) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrII:9583-9666 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-2  DE (tRNAscan-SE ID: chrII.trna6) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrII:347603-347686 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-3  DE (tRNAscan-SE ID: chrIV.trna5) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrIV:519743-519826 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-4  DE (tRNAscan-SE ID: chrX.trna16) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrX:424432-424515 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-5  DE (tRNAscan-SE ID: chrXI.trna2) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrXI:84208-84291 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-6  DE (tRNAscan-SE ID: chrXII.trna14) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrXII:962972-963055 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-7  DE (tRNAscan-SE ID: chrXIV.trna9) Leu (TAA) 84 bp mature sequence Sc: 75.1 chrXIV:726134-726217 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-1  DE (tRNAscan-SE ID: chrX.trna12) Leu (TAG) 82 bp mature sequence Sc: 59.5 chrX:617919-618019 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-2  DE (tRNAscan-SE ID: chrXII.trna18) Leu (TAG) 82 bp mature sequence Sc: 59.5 chrXII:592519-592619 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-3  DE (tRNAscan-SE ID: chrXII.trna5) Leu (TAG) 82 bp mature sequence Sc: 59.5 chrXII:732090-732190 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-1  DE (tRNAscan-SE ID: chrIII.trna7) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrIII:151284-151356 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-10 DE (tRNAscan-SE ID: chrIX.trna9) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrIX:300228-300300 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-11 DE (tRNAscan-SE ID: chrX.trna7) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrX:414966-415038 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-12 DE (tRNAscan-SE ID: chrXI.trna3) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrXI:202999-203071 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-13 DE (tRNAscan-SE ID: chrXIII.trna13) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrXIII:480621-480693 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-14 DE (tRNAscan-SE ID: chrXVI.trna2) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrXVI:582062-582134 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-2  DE (tRNAscan-SE ID: chrIV.trna13) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrIV:1201750-1201822 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-3  DE (tRNAscan-SE ID: chrIV.trna16) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrIV:1352466-1352538 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-4  DE (tRNAscan-SE ID: chrV.trna18) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrV:135425-135497 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-5  DE (tRNAscan-SE ID: chrV.trna14) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrV:435752-435824 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-6  DE (tRNAscan-SE ID: chrVI.trna4) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrVI:226688-226760 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-7  DE (tRNAscan-SE ID: chrVII.trna2) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrVII:122269-122341 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-8  DE (tRNAscan-SE ID: chrVII.trna34) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrVII:185714-185786 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-9  DE (tRNAscan-SE ID: chrVII.trna20) Lys (CTT) 73 bp mature sequence Sc: 81.2 chrVII:876394-876466 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-1  DE (tRNAscan-SE ID: chrIV.trna2) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrIV:359577-359672 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-2  DE (tRNAscan-SE ID: chrVII.trna1) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrVII:115488-115583 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-3  DE (tRNAscan-SE ID: chrVII.trna27) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrVII:700953-701048 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-4  DE (tRNAscan-SE ID: chrXI.trna10) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrXI:578965-579060 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-5  DE (tRNAscan-SE ID: chrXII.trna11) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrXII:875376-875471 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-6  DE (tRNAscan-SE ID: chrXV.trna7) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrXV:438643-438738 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-7  DE (tRNAscan-SE ID: chrXVI.trna11) Lys (TTT) 73 bp mature sequence Sc: 71.1 chrXVI:769207-769302 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Met-CAT-1-1  DE (tRNAscan-SE ID: chrIV.trna12) Met (CAT) 73 bp mature sequence Sc: 70.0 chrIV:1175829-1175901 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Met-CAT-1-2  DE (tRNAscan-SE ID: chrX.trna19) Met (CAT) 73 bp mature sequence Sc: 70.0 chrX:391043-391115 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Met-CAT-1-3  DE (tRNAscan-SE ID: chrX.trna8) Met (CAT) 73 bp mature sequence Sc: 70.0 chrX:422937-423009 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Met-CAT-1-4  DE (tRNAscan-SE ID: chrXIII.trna12) Met (CAT) 73 bp mature sequence Sc: 70.0 chrXIII:572883-572955 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Met-CAT-1-5  DE (tRNAscan-SE ID: chrXV.trna12) Met (CAT) 73 bp mature sequence Sc: 70.0 chrXV:976421-976493 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-1  DE (tRNAscan-SE ID: chrIV.trna19) Phe (GAA) 73 bp mature sequence Sc: 71.4 chrIV:1095370-1095461 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-2  DE (tRNAscan-SE ID: chrXIV.trna3) Phe (GAA) 73 bp mature sequence Sc: 71.4 chrXIV:374869-374959 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-1  DE (tRNAscan-SE ID: chrII.trna2) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrII:36398-36488 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-2  DE (tRNAscan-SE ID: chrVI.trna9) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrVI:157916-158007 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-3  DE (tRNAscan-SE ID: chrVII.trna30) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrVII:440716-440807 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-4  DE (tRNAscan-SE ID: chrVIII.trna7) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrVIII:237848-237939 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-5  DE (tRNAscan-SE ID: chrVIII.trna6) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrVIII:358478-358569 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-6  DE (tRNAscan-SE ID: chrXIII.trna3) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrXIII:352280-352370 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-7  DE (tRNAscan-SE ID: chrXVI.trna13) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrXVI:560198-560289 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-8  DE (tRNAscan-SE ID: chrXVI.trna12) Phe (GAA) 73 bp mature sequence Sc: 70.7 chrXVI:622540-622631 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-1  DE (tRNAscan-SE ID: chrIII.trna9) Pro (AGG) 72 bp mature sequence Sc: 61.9 chrIII:123577-123648 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-2  DE (tRNAscan-SE ID: chrXIV.trna10) Pro (AGG) 72 bp mature sequence Sc: 61.9 chrXIV:631846-631917 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-1  DE (tRNAscan-SE ID: chrI.trna1) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrI:139152-139254 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-2  DE (tRNAscan-SE ID: chrVI.trna1) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrVI:101376-101478 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-3  DE (tRNAscan-SE ID: chrVIII.trna5) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrVIII:388893-388995 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-4  DE (tRNAscan-SE ID: chrXII.trna1) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrXII:92548-92650 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-5  DE (tRNAscan-SE ID: chrXIII.trna19) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrXIII:196068-196170 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-6  DE (tRNAscan-SE ID: chrXIV.trna5) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrXIV:547094-547196 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-7  DE (tRNAscan-SE ID: chrXIV.trna6) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrXIV:568115-568217 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-8  DE (tRNAscan-SE ID: chrXV.trna6) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrXV:301097-301198 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-9  DE (tRNAscan-SE ID: chrXV.trna8) Pro (TGG) 72 bp mature sequence Sc: 62.1 chrXV:464450-464551 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Pro-TGG-2-1  DE (tRNAscan-SE ID: chrXV.trna13) Pro (TGG) 72 bp mature sequence Sc: 58.2 chrXV:980683-980787 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-1  DE (tRNAscan-SE ID: chrI.trna4) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrI:182522-182603 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-10 DE (tRNAscan-SE ID: chrXIII.trna18) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrXIII:259158-259239 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-2  DE (tRNAscan-SE ID: chrII.trna4) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrII:227075-227156 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-3  DE (tRNAscan-SE ID: chrIV.trna4) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrIV:437772-437853 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-4  DE (tRNAscan-SE ID: chrIV.trna22) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrIV:980974-981055 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-5  DE (tRNAscan-SE ID: chrV.trna1) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrV:86604-86685 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-6  DE (tRNAscan-SE ID: chrVII.trna28) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrVII:561662-561743 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-7  DE (tRNAscan-SE ID: chrVIII.trna9) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrVIII:133026-133107 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-8  DE (tRNAscan-SE ID: chrX.trna14) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrX:524012-524093 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-9  DE (tRNAscan-SE ID: chrXII.trna21) Ser (AGA) 82 bp mature sequence Sc: 83.2 chrXII:167944-168025 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-AGA-2-1  DE (tRNAscan-SE ID: chrIV.trna14) Ser (AGA) 83 bp mature sequence Sc: 83.3 chrIV:1305630-1305712 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-CGA-1-1  DE (tRNAscan-SE ID: chrIII.trna4) Ser (CGA) 82 bp mature sequence Sc: 71.8 chrIII:227942-228042 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1  DE (tRNAscan-SE ID: chrVI.trna7) Ser (GCT) 82 bp mature sequence Sc: 64.2 chrVI:191513-191613 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-2  DE (tRNAscan-SE ID: chrXV.trna3) Ser (GCT) 82 bp mature sequence Sc: 64.2 chrXV:274673-274773 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1  DE (tRNAscan-SE ID: chrV.trna17) Ser (TGA) 82 bp mature sequence Sc: 80.3 chrV:288443-288524 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-2  DE (tRNAscan-SE ID: chrIX.trna4) Ser (TGA) 82 bp mature sequence Sc: 80.3 chrIX:248850-248931 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-3  DE (tRNAscan-SE ID: chrXVI.trna3) Ser (TGA) 82 bp mature sequence Sc: 80.3 chrXVI:689565-689646 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1  DE (tRNAscan-SE ID: chrII.trna5) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrII:266378-266450 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10 DE (tRNAscan-SE ID: chrXV.trna1) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrXV:113802-113874 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11 DE (tRNAscan-SE ID: chrXV.trna17) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrXV:354041-354113 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2  DE (tRNAscan-SE ID: chrIII.trna5) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrIII:295484-295556 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3  DE (tRNAscan-SE ID: chrIV.trna28) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrIV:434264-434336 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4  DE (tRNAscan-SE ID: chrVIII.trna10) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrVIII:116107-116179 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5  DE (tRNAscan-SE ID: chrIX.trna1) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrIX:175031-175103 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6  DE (tRNAscan-SE ID: chrIX.trna5) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrIX:325748-325820 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7  DE (tRNAscan-SE ID: chrX.trna24) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrX:59100-59172 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8  DE (tRNAscan-SE ID: chrXIV.trna2) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrXIV:104805-104877 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9  DE (tRNAscan-SE ID: chrXIV.trna12) Thr (AGT) 73 bp mature sequence Sc: 76.0 chrXIV:560693-560765 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-CGT-1-1  DE (tRNAscan-SE ID: chrXI.trna16) Thr (CGT) 72 bp mature sequence Sc: 76.3 chrXI:46735-46806 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-TGT-1-1  DE (tRNAscan-SE ID: chrVIII.trna3) Thr (TGT) 72 bp mature sequence Sc: 77.5 chrVIII:466990-467061 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-1  DE (tRNAscan-SE ID: chrVII.trna10) Thr (TGT) 72 bp mature sequence Sc: 77.0 chrVII:661749-661820 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-2  DE (tRNAscan-SE ID: chrVII.trna21) Thr (TGT) 72 bp mature sequence Sc: 77.0 chrVII:1004216-1004287 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-3  DE (tRNAscan-SE ID: chrXVI.trna4) Thr (TGT) 72 bp mature sequence Sc: 77.0 chrXVI:744284-744355 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-1  DE (tRNAscan-SE ID: chrVII.trna33) Trp (CCA) 72 bp mature sequence Sc: 67.2 chrVII:287350-287455 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-2  DE (tRNAscan-SE ID: chrVII.trna23) Trp (CCA) 72 bp mature sequence Sc: 67.2 chrVII:878710-878815 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-3  DE (tRNAscan-SE ID: chrX.trna17) Trp (CCA) 72 bp mature sequence Sc: 67.2 chrX:415931-416036 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-4  DE (tRNAscan-SE ID: chrXI.trna5) Trp (CCA) 72 bp mature sequence Sc: 67.2 chrXI:302918-303023 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-5  DE (tRNAscan-SE ID: chrXIII.trna15) Trp (CCA) 72 bp mature sequence Sc: 67.2 chrXIII:379303-379408 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-6  DE (tRNAscan-SE ID: chrXVI.trna17) Trp (CCA) 72 bp mature sequence Sc: 67.2 chrXVI:56169-56274 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1  DE (tRNAscan-SE ID: chrIV.trna10) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrIV:946312-946400 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2  DE (tRNAscan-SE ID: chrVI.trna3) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrVI:167437-167525 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3  DE (tRNAscan-SE ID: chrVI.trna5) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrVI:210619-210707 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4  DE (tRNAscan-SE ID: chrX.trna3) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrX:354244-354332 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5  DE (tRNAscan-SE ID: chrX.trna13) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrX:542956-543044 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6  DE (tRNAscan-SE ID: chrXIII.trna1) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrXIII:168795-168883 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7  DE (tRNAscan-SE ID: chrXIII.trna7) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrXIII:837928-838016 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8  DE (tRNAscan-SE ID: chrXV.trna5) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrXV:288192-288280 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Und-NNN-1-1  DE (tRNAscan-SE ID: chrIV.trna18) Ser (GCT) 81 bp mature sequence Sc: 49.8 chrIV:1150842-1150941 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Und-NNN-1-2  DE (tRNAscan-SE ID: chrXII.trna7) Ser (GCT) 81 bp mature sequence Sc: 49.8 chrXII:784354-784453 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1  DE (tRNAscan-SE ID: chrV.trna8) Val (AAC) 74 bp mature sequence Sc: 67.6 chrV:438700-438773 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10 DE (tRNAscan-SE ID: chrXII.trna15) Val (AAC) 74 bp mature sequence Sc: 67.6 chrXII:687859-687932 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11 DE (tRNAscan-SE ID: chrXIII.trna16) Val (AAC) 74 bp mature sequence Sc: 67.6 chrXIII:372445-372518 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12 DE (tRNAscan-SE ID: chrXIII.trna14) Val (AAC) 74 bp mature sequence Sc: 67.6 chrXIII:420588-420661 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13 DE (tRNAscan-SE ID: chrXIII.trna11) Val (AAC) 74 bp mature sequence Sc: 67.6 chrXIII:586636-586709 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2  DE (tRNAscan-SE ID: chrV.trna9) Val (AAC) 74 bp mature sequence Sc: 67.6 chrV:469457-469530 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3  DE (tRNAscan-SE ID: chrVII.trna36) Val (AAC) 74 bp mature sequence Sc: 67.6 chrVII:73829-73902 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4  DE (tRNAscan-SE ID: chrVII.trna31) Val (AAC) 74 bp mature sequence Sc: 67.6 chrVII:412294-412367 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5  DE (tRNAscan-SE ID: chrVII.trna18) Val (AAC) 74 bp mature sequence Sc: 67.6 chrVII:823482-823555 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6  DE (tRNAscan-SE ID: chrVIII.trna11) Val (AAC) 74 bp mature sequence Sc: 67.6 chrVIII:85298-85371 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7  DE (tRNAscan-SE ID: chrX.trna6) Val (AAC) 74 bp mature sequence Sc: 67.6 chrX:378360-378433 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8  DE (tRNAscan-SE ID: chrXI.trna13) Val (AAC) 74 bp mature sequence Sc: 67.6 chrXI:308144-308217 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9  DE (tRNAscan-SE ID: chrXI.trna6) Val (AAC) 74 bp mature sequence Sc: 67.6 chrXI:379680-379753 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1  DE (tRNAscan-SE ID: chrXV.trna15) Val (AAC) 74 bp mature sequence Sc: 66.3 chrXV:663812-663885 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-CAC-1-1  DE (tRNAscan-SE ID: chrIV.trna20) Val (CAC) 73 bp mature sequence Sc: 70.5 chrIV:1075472-1075544 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-CAC-1-2  DE (tRNAscan-SE ID: chrVIII.trna4) Val (CAC) 73 bp mature sequence Sc: 70.5 chrVIII:475706-475778 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-TAC-1-1  DE (tRNAscan-SE ID: chrII.trna12) Val (TAC) 74 bp mature sequence Sc: 70.3 chrII:326792-326865 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-Val-TAC-1-2  DE (tRNAscan-SE ID: chrIV.trna27) Val (TAC) 74 bp mature sequence Sc: 70.3 chrIV:488797-488870 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-1 DE (tRNAscan-SE ID: chrIII.trna3) iMet (CAT) 72 bp mature sequence Sc: 69.1 chrIII:149920-149991 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-2 DE (tRNAscan-SE ID: chrV.trna2) iMet (CAT) 72 bp mature sequence Sc: 69.1 chrV:100133-100204 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-3 DE (tRNAscan-SE ID: chrX.trna15) iMet (CAT) 72 bp mature sequence Sc: 69.1 chrX:517813-517884 (-)
+#=GS Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-4 DE (tRNAscan-SE ID: chrXV.trna11) iMet (CAT) 72 bp mature sequence Sc: 69.1 chrXV:710201-710272 (+)
+#=GS Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-5 DE (tRNAscan-SE ID: chrXVI.trna15) iMet (CAT) 72 bp mature sequence Sc: 69.1 chrXVI:338848-338919 (-)
+
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10         GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11         GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9          GGGCGUGUGGCGUAGUcGGU.-AGCGCGCUCCCUUAGCAUGGGAGAG...........GUCUCCGGUUCGAUUCCGGACUCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1          GGGCACAUGGCGCAGUuGGU.-AGCGCGCUUCCCUUGCAAGGAAGAG...........GUCAUCGGUUCGAUUCCGGUUGCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2          GGGCACAUGGCGCAGUuGGU.-AGCGCGCUUCCCUUGCAAGGAAGAG...........GUCAUCGGUUCGAUUCCGGUUGCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3          GGGCACAUGGCGCAGUuGGU.-AGCGCGCUUCCCUUGCAAGGAAGAG...........GUCAUCGGUUCGAUUCCGGUUGCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4          GGGCACAUGGCGCAGUuGGU.-AGCGCGCUUCCCUUGCAAGGAAGAG...........GUCAUCGGUUCGAUUCCGGUUGCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5          GGGCACAUGGCGCAGUuGGU.-AGCGCGCUUCCCUUGCAAGGAAGAG...........GUCAUCGGUUCGAUUCCGGUUGCGUCCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-1          UUCCUCGUGGCCCAAU.GGU.CACGGCGUCUGGCUACGAACCAGAAG...........AUUCCAGGUUCAAGUCCUGGCGGGGAAG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-1  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-2          UUCCUCGUGGCCCAAU.GGU.CACGGCGUCUGGCUACGAACCAGAAG...........AUUCCAGGUUCAAGUCCUGGCGGGGAAG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-2  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-3          UUCCUCGUGGCCCAAU.GGU.CACGGCGUCUGGCUACGAACCAGAAG...........AUUCCAGGUUCAAGUCCUGGCGGGGAAG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-3  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-4          UUCCUCGUGGCCCAAU.GGU.CACGGCGUCUGGCUACGAACCAGAAG...........AUUCCAGGUUCAAGUCCUGGCGGGGAAG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-4  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-5          UUCCUCGUGGCCCAAU.GGU.CACGGCGUCUGGCUACGAACCAGAAG...........AUUCCAGGUUCAAGUCCUGGCGGGGAAG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-ACG-1-5  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-ACG-2-1          UUCCUCGUGGCCCAAU.GGU.CACGGCGUCUGGCUACGAACCAGGAG...........AUUCCAGGUUCGAGUCCUGGCGGGGAAG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-ACG-2-1  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-CCG-1-1          GCUCCUCUAGUGCAAU.GGU.UAGCAUGCAUUCUUCCGGUGGCUGUG...........A-UCCGGGUUCGAGUCCCGGGAGGAGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-CCG-1-1  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Arg-CCT-1-1          GUUCCGUUGGCGUAAU.GGU.-AACGCGUCUCCCUCCUAAGGAGAAG...........ACUGCGGGUUCGAGUCCCGUACGGAACG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-CCT-1-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-1          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-10         GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-10 PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-11         GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-11 PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-2          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-2  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-3          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-3  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-4          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-4  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-5          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-5  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-6          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-6  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-7          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-7  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-8          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-8  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-9          GCUCGCGUGGCGUAAU.GGC.-AACGCGUCUGACUUCUAAUCAGAAG...........AUUAUGGGUUCGACCCCCAUCGUGAGUG
+#=GR Saccharomyces_cerevisiae_tRNA-Arg-TCT-1-9  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-1          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-1  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-10         GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-10 PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-2          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-2  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-3          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-3  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-4          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-4  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-5          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-5  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-6          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-6  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-7          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-7  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-8          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-8  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-9          GACUCCAUGGCCAAGUuGGU.UAAGGCGUGCGACUGUUAAUCGCAAG...........AUCGUGAGUUCAACCCUCACUGGGGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Asn-GTT-1-9  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-1          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-1  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-10         UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-10 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-11         UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-11 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-12         UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-12 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-13         UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-13 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-14         UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-14 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-15         UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-15 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-2          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-2  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-3          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-3  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-4          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-4  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-5          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-5  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-6          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-6  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-7          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-7  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-8          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-8  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-9          UCCGUGAUAGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-1-9  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Asp-GTC-2-1          UCCAACA-AGUUUAAU.GGU.CAGAAUGGGCGCUUGUCGCGUGCCAG...........A-UCGGGGUUCAAUUCCCCGUCGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Asp-GTC-2-1  PP ***8666.69******.***.*************************6...........6.******************9999****
+Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-1          GCUCGUAUGGCGCAGU.GGU.-AGCGCAGCAGAUUGCAAAUCUGUUG...........GUCCUUAGUUCGAUCCUGAGUGCGAGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-2          GCUCGUAUGGCGCAGU.GGU.-AGCGCAGCAGAUUGCAAAUCUGUUG...........GUCCUUAGUUCGAUCCUGAGUGCGAGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-2  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-3          GCUCGUAUGGCGCAGU.GGU.-AGCGCAGCAGAUUGCAAAUCUGUUG...........GUCCUUAGUUCGAUCCUGAGUGCGAGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-3  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-4          GCUCGUAUGGCGCAGU.GGU.-AGCGCAGCAGAUUGCAAAUCUGUUG...........GUCCUUAGUUCGAUCCUGAGUGCGAGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Cys-GCA-1-4  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Gln-CTG-1-1          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUCUGAUCCGAACA...........A-CCCCAGUUCGAAUCCGGGUGGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-CTG-1-1  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1          GGUUUUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGAACA...........A-CCCCGGUUCGAAUCCGGGUAAGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7          GGUCCUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAGGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1          GGUUUUAUAGUGUAGU.GGU.UAUCACUUUCGGUUUUGAUCCGGACA...........A-CCCCGGUUCGAAUCCGGGUAAGACCU
+#=GR Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1  PP ****************.***.*************************5...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1          UCCGAUGUAGUGUAAC.GGC.UAUCACAUCACGUUCUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGCUUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2          UCCGAUGUAGUGUAAC.GGC.UAUCACAUCACGUUCUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGCUUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10         UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11         UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12         UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13         UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13 PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAUCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1          UCCGAUAUAGUGUAAC.GGC.UAUCACAUCACGCUUUCACCGUGGAG...........A-CCGGGGUUCGACUCCCCGUAGCGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1  PP ****************.***.*************************6...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1          GCGCAAGUGGUUCAGU.GGU.UAGAAUUUAUGCUUCCCAAGCAUGAG...........G-CCCGGGUUCGAUUCCCGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1  PP ****************.***.*************************9...........*.**************************
+Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1          GCGAAAGUGGUUCAGU.GGU.UAGAAUUCAUGCUUCCCAAGCAUGGG...........G-CCCGGGUUCGAUUCCCGGCUUCCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1  PP ****************.***.*************************9...........9.**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16         GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16 PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9          GCGCAAGUGGUUUAGU.GGU.-AAAAUCCAACGUUGCCAUCGUUGG-...........GCCCCCGGUUCGAUUCCGGGCUUGCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9  PP ****************.***..***********************9............77**************************
+Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1          GGGCGGUUAGUGUAGU.GGU.UAUCAUCCCACCCUUCCAAGGUGGGG...........A-CACGGGUUCGAUUCUCGUACCGCUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1  PP ****************.***.************************96...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2          GGGCGGUUAGUGUAGU.GGU.UAUCAUCCCACCCUUCCAAGGUGGGG...........A-CACGGGUUCGAUUCUCGUACCGCUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2  PP ****************.***.************************96...........5.**************************
+Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3          GGGCGGUUAGUGUAGU.GGU.UAUCAUCCCACCCUUCCAAGGUGGGG...........A-CACGGGUUCGAUUCUCGUACCGCUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3  PP ****************.***.************************96...........5.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-1          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-1  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-2          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-2  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-3          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-3  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-4          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-4  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-5          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-5  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-6          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-6  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-His-GTG-1-7          GCCAUCUUAGUAUAGU.GGU.UAGUACACAUCGUUGUGGCCGAUGAA...........A-CCCUGGUUCGAUUCUAGGAGAUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-His-GTG-1-7  PP ****************.***.*************************5...........6.**************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-1          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-1  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-10         GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-10 PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-11         GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-11 PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-12         GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-12 PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-13         GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-13 PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-2          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-2  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-3          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-3  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-4          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-4  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-5          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-5  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-6          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-6  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-7          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-7  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-8          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-8  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-9          GGUCUCUUGGCCCAGUuGGU.UAAGGCACCGUGCUAAUAACGCGGGG...........AUCAGCGGUUCGAUCCCGCUAGAGACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-AAT-1-9  PP ********************.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-TAT-1-1          GCUCGUGUAGCUCAGU.GGU.UAGAGCUUCGUGCUUAUAACGCGACC...........GUCGUGGGUUCAAACCCCACCUCGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-TAT-1-1  PP ****************.***.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Ile-TAT-2-1          GCUCGUGUAGCUCAGU.GGU.UAGAGCUUCGUGCUUAUAACGCGACC...........GUCGUGGGUUCAAUCCCCACCUCGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Ile-TAT-2-1  PP ****************.***.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-1          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-1  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-10         GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-10 PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-2          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-2  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-3          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-3  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-4          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-4  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-5          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-5  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-6          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-6  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-7          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-7  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-8          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-8  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-9          GGUUGUUUGGCCGAGC.GGUcUAAGGCGCCUGAUUCAAGCUCAGGU-aucgu.aagauG-CAAGAGUUCGAAUCUCUUAGCAACCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-CAA-1-9  PP ****************.*****************************.9****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-GAG-1-1          GGUACUCUGGCCGAGU.GGUcUAAGGCGUCAGGUCGAGGUCCUGAU-cucu..ucggaGGCGCGGGUUCAAACCCCGCGGGUAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-GAG-1-1  PP ****************.*****************************.9***..*****66**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-1          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-1  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-2          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-2  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-3          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-3  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-4          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-4  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-5          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-5  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-6          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-6  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-7          GGAGGGUUGGCCGAGU.GGUcUAAGGCGGCAGACUUAAGAUCUGUUGgacgguuguccG-CGCGAGUUCGAACCUCGCAUCCUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAA-1-7  PP ****************.*****************************6**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-1          GGGAGUUUGGCCGAGU.GGUuUAAGGCGUCAGAUUUAGGCUCUGAU-aucuu.cggauG-CAAGGGUUCGAAUCCCUUAGCUCUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-1  PP ****************.9*99*************************.8****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-2          GGGAGUUUGGCCGAGU.GGUuUAAGGCGUCAGAUUUAGGCUCUGAU-aucuu.cggauG-CAAGGGUUCGAAUCCCUUAGCUCUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-2  PP ****************.9*99*************************.8****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-3          GGGAGUUUGGCCGAGU.GGUuUAAGGCGUCAGAUUUAGGCUCUGAU-aucuu.cggauG-CAAGGGUUCGAAUCCCUUAGCUCUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Leu-TAG-1-3  PP ****************.9*99*************************.8****.****98.**************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-1          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-10         GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-10 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-11         GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-11 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-12         GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-12 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-13         GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-13 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-14         GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-14 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-2          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-3          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-3  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-4          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-4  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-5          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-5  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-6          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-6  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-7          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-7  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-8          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-8  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-9          GCCUUGUUGGCGCAAUcGGU.-AGCGCGUAUGACUCUUAAUCAUAAG...........GUUAGGGGUUCGAGCCCCCUACAGGGCU
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-CTT-1-9  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-1          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-1  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-2          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-2  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-3          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-3  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-4          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-4  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-5          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-5  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-6          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-6  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-7          UCCUUGUUAGCUCAGUuGGU.-AGAGCGUUCGGCUUUUAACCGAAAU...........GUCAGGGGUUCGAGCCCCCUAUGAGGAG
+#=GR Saccharomyces_cerevisiae_tRNA-Lys-TTT-1-7  PP ********************..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Met-CAT-1-1          GCUUCAGUAGCUCAGUaGGA.-AGAGCGUCAGUCUCAUAAUCUGAAG...........GUCGAGAGUUCGAACCUCCCCUGGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Met-CAT-1-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Met-CAT-1-2          GCUUCAGUAGCUCAGUaGGA.-AGAGCGUCAGUCUCAUAAUCUGAAG...........GUCGAGAGUUCGAACCUCCCCUGGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Met-CAT-1-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Met-CAT-1-3          GCUUCAGUAGCUCAGUaGGA.-AGAGCGUCAGUCUCAUAAUCUGAAG...........GUCGAGAGUUCGAACCUCCCCUGGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Met-CAT-1-3  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Met-CAT-1-4          GCUUCAGUAGCUCAGUaGGA.-AGAGCGUCAGUCUCAUAAUCUGAAG...........GUCGAGAGUUCGAACCUCCCCUGGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Met-CAT-1-4  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Met-CAT-1-5          GCUUCAGUAGCUCAGUaGGA.-AGAGCGUCAGUCUCAUAAUCUGAAG...........GUCGAGAGUUCGAACCUCCCCUGGAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Met-CAT-1-5  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-1          GCGGACUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAGUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-2          GCGGACUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAGUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-1-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-1          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-2          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-3          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-3  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-4          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-4  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-5          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-5  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-6          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-6  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-7          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-7  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-8          GCGGAUUUAGCUCAGUuGGG.-AGAGCGCCAGACUGAAGAUCUGGAG...........GUCCUGUGUUCGAUCCACAGAAUUCGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Phe-GAA-2-8  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-1          GGGCGUGUGGUCUAGA.GGU.-AUGAUUCUCGCUUAGGGUGCGGGAG...........GUCCCGGGUUCGAGUCCCGGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-1  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-2          GGGCGUGUGGUCUAGA.GGU.-AUGAUUCUCGCUUAGGGUGCGGGAG...........GUCCCGGGUUCGAGUCCCGGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-AGG-1-2  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-1          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-1  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-2          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-2  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-3          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-3  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-4          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-4  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-5          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-5  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-6          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-6  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-7          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-7  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-8          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-8  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-9          GGGCGUGUGGUCUAGU.GGU.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-1-9  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Pro-TGG-2-1          GGGCGUGUGGUCUAGU.GGA.-AUGAUUCUCGCUUUGGGUGCGAGAG...........GCCCUGGGUUCAAUUCCCAGCUCGCCCC
+#=GR Saccharomyces_cerevisiae_tRNA-Pro-TGG-2-1  PP ****************.***..*************************...........***************************9
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-1          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-1  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-10         GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-10 PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-2          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-2  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-3          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-3  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-4          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-4  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-5          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-5  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-6          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-6  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-7          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-7  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-8          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-8  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-9          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuu.ugcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-1-9  PP ****************.***.*************************5*****.*****9.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-AGA-2-1          GGCAACUUGGCCGAGU.GGU.UAAGGCGAAAGAUUAGAAAUCUUUUGggcuuuggcccG-CGCAGGUUCGAGUCCUGCAGUUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-AGA-2-1  PP ****************.***.*************************5**********99.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-CGA-1-1          GGCACUAUGGCCGAGU.GGU.UAAGGCGAGAGACUCGAAAUCUCUUGggcuc.ugcccG-CGCUGGUUCAAAUCCUGCUGGUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-CGA-1-1  PP ****************.***.*************************6*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1          GUCCCAGUGGCCGAGU.GGU.UAAGGCGAUGCCCUGCUAAGGCAUUGgguuu.uaccuG-CGCAGGUUCGAAUCCUGUCUGUGACG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-1  PP ****************.***.*************************6*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-2          GUCCCAGUGGCCGAGU.GGU.UAAGGCGAUGCCCUGCUAAGGCAUUGgguuu.uaccuG-CGCAGGUUCGAAUCCUGUCUGUGACG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-GCT-1-2  PP ****************.***.*************************6*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1          GGCACUAUGGCCGAGU.GGU.UAAGGCGACAGACUUGAAAUCUGUUGggcuc.ugcccG-CGCUGGUUCAAAUCCUGCUGGUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-1  PP ****************.***.*************************6*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-2          GGCACUAUGGCCGAGU.GGU.UAAGGCGACAGACUUGAAAUCUGUUGggcuc.ugcccG-CGCUGGUUCAAAUCCUGCUGGUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-2  PP ****************.***.*************************6*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-3          GGCACUAUGGCCGAGU.GGU.UAAGGCGACAGACUUGAAAUCUGUUGggcuc.ugcccG-CGCUGGUUCAAAUCCUGCUGGUGUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Ser-TGA-1-3  PP ****************.***.*************************6*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10         GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11         GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11 PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9          GCUUCUAUGGCCAAGUuGGU.-AAGGCGCCACACUAGUAAUGUGGAG...........AUCAUCGGUUCAAAUCCGAUUGGAAGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9  PP ********************..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-CGT-1-1          GCCCUUUUGGCCAAGU.GGU.-AAGGCAUCGCACUCGUAAUGCGGGG...........AUCGUGGGUUCAAUUCCCACAGAGGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-CGT-1-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-TGT-1-1          GCCUCCUUAGCUUAGU.GGU.-AGAGCGUUGCACUUGUAAUGCAAAG...........GUCGCUAGUUCAAUUCUGGCAGGUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-TGT-1-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-1          GCCUCCUUAGCUUAGU.GGU.-AGAGCGUUGCACUUGUAAUGCAAAG...........GUCGUUAGUUCAAUUCUGACAGGUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-2          GCCUCCUUAGCUUAGU.GGU.-AGAGCGUUGCACUUGUAAUGCAAAG...........GUCGUUAGUUCAAUUCUGACAGGUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-2  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-3          GCCUCCUUAGCUUAGU.GGU.-AGAGCGUUGCACUUGUAAUGCAAAG...........GUCGUUAGUUCAAUUCUGACAGGUGGCA
+#=GR Saccharomyces_cerevisiae_tRNA-Thr-TGT-2-3  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-1          GAAGCGGUGGCUCAAU.GGU.-AGAGCUUUCGACUCCAAAUCGAAGG...........GUUGCAGGUUCAAUUCCUGUCCGUUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-1  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-2          GAAGCGGUGGCUCAAU.GGU.-AGAGCUUUCGACUCCAAAUCGAAGG...........GUUGCAGGUUCAAUUCCUGUCCGUUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-2  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-3          GAAGCGGUGGCUCAAU.GGU.-AGAGCUUUCGACUCCAAAUCGAAGG...........GUUGCAGGUUCAAUUCCUGUCCGUUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-3  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-4          GAAGCGGUGGCUCAAU.GGU.-AGAGCUUUCGACUCCAAAUCGAAGG...........GUUGCAGGUUCAAUUCCUGUCCGUUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-4  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-5          GAAGCGGUGGCUCAAU.GGU.-AGAGCUUUCGACUCCAAAUCGAAGG...........GUUGCAGGUUCAAUUCCUGUCCGUUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-5  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-6          GAAGCGGUGGCUCAAU.GGU.-AGAGCUUUCGACUCCAAAUCGAAGG...........GUUGCAGGUUCAAUUCCUGUCCGUUUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Trp-CCA-1-6  PP ****************.***..*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8          CUCUCGGUAGCCAAGUuGGUuUAAGGCGCAAGACUGUAAAUCUUGAG...........AUCGGGCGUUCGACUCGCCCCCGGGAGA
+#=GR Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8  PP *******************99**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Und-NNN-1-1          GUCCCAGUGGCCGAGU.GGU.UAAGGCGAUGCC-UGCUAAGGCAUUGgguuu.uaccuG-CGCAGGUUCGAAUCCUGUCUGUGACG
+#=GR Saccharomyces_cerevisiae_tRNA-Und-NNN-1-1  PP ****************.***.**********75.999999******5*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Und-NNN-1-2          GUCCCAGUGGCCGAGU.GGU.UAAGGCGAUGCC-UGCUAAGGCAUUGgguuu.uaccuG-CGCAGGUUCGAAUCCUGUCUGUGACG
+#=GR Saccharomyces_cerevisiae_tRNA-Und-NNN-1-2  PP ****************.***.**********75.999999******5*****.****99.**************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10         GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10 PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11         GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11 PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12         GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12 PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13         GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13 PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1          GGUUUCGUGGUCUAGUcGGU.UAUGGCAUCUGCUUAACACGCAGAAC...........GUCCCCAGUUCGAUCCUGGGCGAAAUCG
+#=GR Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1  PP ********************.*************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-CAC-1-1          GUUCCAAUAGUGUAGC.GGC.UAUCACGUUGCCUUCACACGGCAAAG...........GUCCCGAGUUCGAUCCUCGGUUGGAACA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-CAC-1-1  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-CAC-1-2          GUUCCAAUAGUGUAGC.GGC.UAUCACGUUGCCUUCACACGGCAAAG...........GUCCCGAGUUCGAUCCUCGGUUGGAACA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-CAC-1-2  PP ****************.***.**************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-TAC-1-1          GGUCCAAUGGUCCAGU.GGUuCAAGACGUCGCCUUUACACGGCGAAG...........AUCCCGAGUUCGAACCUCGGUUGGAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-TAC-1-1  PP ****************.**999*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-Val-TAC-1-2          GGUCCAAUGGUCCAGU.GGUuCAAGACGUCGCCUUUACACGGCGAAG...........AUCCCGAGUUCGAACCUCGGUUGGAUCA
+#=GR Saccharomyces_cerevisiae_tRNA-Val-TAC-1-2  PP ****************.**999*************************...........****************************
+Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-1         AGCGCCGUGGCGCAGU.GGA.-AGCGCGCAGGGCUCAUAACCCUGAU...........GUCCUCGGAUCGAAACCGAGCGGCGCUA
+#=GR Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-1 PP ****************.***..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-2         AGCGCCGUGGCGCAGU.GGA.-AGCGCGCAGGGCUCAUAACCCUGAU...........GUCCUCGGAUCGAAACCGAGCGGCGCUA
+#=GR Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-2 PP ****************.***..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-3         AGCGCCGUGGCGCAGU.GGA.-AGCGCGCAGGGCUCAUAACCCUGAU...........GUCCUCGGAUCGAAACCGAGCGGCGCUA
+#=GR Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-3 PP ****************.***..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-4         AGCGCCGUGGCGCAGU.GGA.-AGCGCGCAGGGCUCAUAACCCUGAU...........GUCCUCGGAUCGAAACCGAGCGGCGCUA
+#=GR Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-4 PP ****************.***..************************9...........****************************
+Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-5         AGCGCCGUGGCGCAGU.GGA.-AGCGCGCAGGGCUCAUAACCCUGAU...........GUCCUCGGAUCGAAACCGAGCGGCGCUA
+#=GR Saccharomyces_cerevisiae_tRNA-iMet-CAT-1-5 PP ****************.***..************************9...........****************************
+#=GC SS_cons                                       (((((((,,<<<<___.___.__>>>>,<<<<<_______>>>>>,,...........,,,<<<<<_______>>>>>))))))):
+#=GC RF                                            GccccggUgGCucAGU.GGU.UAgaGCgcugGaCUuuuAAuCcagaG...........GUCgcgGGUUCGAauCCcgcccggggCa
+//
