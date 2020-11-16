@@ -4,13 +4,17 @@ class CreateWindows:
     this will convert it into just the regions we are interested in.
     
     Usage:
-    for header, sequence in FastAreader(file.fa).readFasta():
-        windowMaker = CreateWindows(secondaryStructure, sequence=sequence, desiredRegions=[])
-        newFasta += f'>{header}\n{windowMaker.getWindowedSequence()}'
+        file='../euk_sacc.fa'
+        secondaryStructure="(((((((,,<<<<___.___.__>>>>,<<<<<_______>>>>>,,...........,,,<<<<<_______>>>>>))))))):"
+        newFasta=''
+        for header, sequence in FastAreader(file).readFasta():
+            windowMaker = CreateWindows(secondaryStructure, sequence=sequence, desiredRegions=['AA-stem', 'T-arm'])
+            newFasta += f'>{header}\n{windowMaker.getWindowedSequence()}\n'
+        print(newFasta)
         
     Output:
-    >Example
-    GGGCGUGUGNNNNNNNNNNN--NNNNNNNNNNNNNNNNNNNNNNNNN-----------NNNUCCGGUUCGAUUCCGGACUCGUCCA
+        >Example
+        GGGCGUGUGNNNNNNNNNNN--NNNNNNNNNNNNNNNNNNNNNNNNN-----------NNNUCCGGUUCGAUUCCGGACUCGUCCA
     '''
     import re
     startAA = re.compile(r'\(+[^<>]{0,}')#r'\(+.{0,}?<'
