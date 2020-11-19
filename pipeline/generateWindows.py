@@ -16,12 +16,12 @@ python generateWindows.py fasta.fa secondarystructure.txt
 * will populate the directory with fasta files
 	named after their specified regions.
 '''
-fastafile = 'euk_sacc.fa'#sys.argv[1]
-secondaryStructure = 'sacc_ss.txt'#sys.argv[2]
+fastafile = sys.argv[1]
+secondaryStructure = sys.argv[2]
 
 
-#important stuff
-with open(secondaryStructure) as file:
+
+with open(secondaryStructure) as file:#pulls info from secondaryStructure file
 	secondaryStructure = file.read()
 
 def generateSub(original, collection, i):
@@ -50,6 +50,7 @@ def generateSub(original, collection, i):
 		return generateSub( original, collection, i )
     
 def cleanSub(original, culmination):
+	'''The generateSub() method is imperfect, this fixes the issue of duplicates'''
 	for item in original:
 		for item2 in culmination:
 			if item == item2:
@@ -59,7 +60,7 @@ def cleanSub(original, culmination):
 	return culmination
 
 def generateCombinations():
-    '''Returns a list of all combinations of the desiredRegions'''
+    '''Returns a list of all combinations of the desiredRegions listed in the CreateWindows class'''
     desiredRegions = list( CreateWindows().alignedRegions.keys() )
     
     combinations = []
