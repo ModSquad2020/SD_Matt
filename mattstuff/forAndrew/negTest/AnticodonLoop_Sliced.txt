@@ -1,0 +1,2079 @@
+# cmsearch :: search CM(s) against a sequence database
+# INFERNAL 1.1.2 (July 2016)
+# Copyright (C) 2016 Howard Hughes Medical Institute.
+# Freely distributed under a BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query CM file:                         euk_sacc_neg_Sliced/AnticodonLoop_Sliced.cm
+# target sequence database:              saccCere_tRNAs.fa
+# number of worker threads:              2 [--cpu]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AnticodonLoop_Sliced  [CLEN=72]
+Hit scores:
+  rank     E-value  score  bias  sequence                                    start    end   mdl trunc   gc  description
+ -----   --------- ------ -----  ------------------------------------------ ------ ------   --- ----- ----  -----------
+   (1) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrII.trna13) Gly 
+   (2) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrX.trna18) Gly (
+   (3) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrX.trna9) Gly (G
+   (4) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrXIII.trna20) Gl
+   (5) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrXV.trna19) Gly 
+   (6) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrXV.trna4) Gly (
+   (7) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrXVI.trna1) Gly 
+   (8) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16      1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrXVI.trna8) Gly 
+   (9) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrIII.trna8) Gly 
+  (10) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrIV.trna1) Gly (
+  (11) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrIV.trna11) Gly 
+  (12) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrV.trna20) Gly (
+  (13) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrVI.trna2) Gly (
+  (14) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrVI.trna8) Gly (
+  (15) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrVII.trna19) Gly
+  (16) !    0.0025   19.8   0.0  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9       1     71 +  cm    no 0.58  (tRNAscan-SE ID: chrVII.trna22) Gly
+  (17) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-1       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrV.trna5) His (G
+  (18) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-2       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrV.trna15) His (
+  (19) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-3       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrVII.trna35) His
+  (20) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-4       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrVII.trna4) His 
+  (21) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-5       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrVIII.trna1) His
+  (22) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-6       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrXI.trna12) His 
+  (23) !    0.0029   19.5   0.0  Saccharomyces_cerevisiae_tRNA-His-GTG-1-7       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrXIII.trna4) His
+  (24) !    0.0041   18.9   0.0  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1       1     72 +  cm    no 0.58  (tRNAscan-SE ID: chrIV.trna21) Glu 
+  (25) !    0.0041   18.9   0.0  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2       1     72 +  cm    no 0.58  (tRNAscan-SE ID: chrIX.trna2) Glu (
+  (26) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrII.trna10) Glu 
+  (27) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10      1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrX.trna23) Glu (
+  (28) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11      1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrXI.trna15) Glu 
+  (29) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12      1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrXII.trna9) Glu 
+  (30) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13      1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrXVI.trna16) Glu
+  (31) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrIII.trna10) Glu
+  (32) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrV.trna4) Glu (T
+  (33) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrV.trna7) Glu (T
+  (34) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrV.trna12) Glu (
+  (35) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrVII.trna5) Glu 
+  (36) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrVII.trna32) Glu
+  (37) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrVII.trna9) Glu 
+  (38) !    0.0053   18.5   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrIX.trna6) Glu (
+  (39) !    0.0059   18.3   0.0  Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1       1     72 +  cm    no 0.57  (tRNAscan-SE ID: chrIV.trna17) Gly 
+  (40) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrIV.trna3) Ala (
+  (41) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10      1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrXIII.trna9) Ala
+  (42) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11      1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrXVI.trna7) Ala 
+  (43) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrVI.trna6) Ala (
+  (44) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrVII.trna15) Ala
+  (45) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrVIII.trna8) Ala
+  (46) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrX.trna22) Ala (
+  (47) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrXI.trna4) Ala (
+  (48) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrXI.trna9) Ala (
+  (49) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrXII.trna16) Ala
+  (50) !    0.0061   18.2   0.0  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9       1     73 +  cm    no 0.64  (tRNAscan-SE ID: chrXIII.trna17) Al
+  (51) !    0.0067   18.1   0.0  Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1       1     72 +  cm    no 0.57  (tRNAscan-SE ID: chrXIII.trna2) Glu
+  (52) !    0.0068   18.0   0.0  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1       1     72 +  cm    no 0.57  (tRNAscan-SE ID: chrVII.trna16) Gly
+  (53) !    0.0068   18.0   0.0  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2       1     72 +  cm    no 0.57  (tRNAscan-SE ID: chrXIV.trna14) Gly
+  (54) !    0.0068   18.0   0.0  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3       1     72 +  cm    no 0.57  (tRNAscan-SE ID: chrXV.trna20) Gly 
+ ------ inclusion threshold ------
+  (55) ?     0.012   17.0   0.0  Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1       1     72 +  cm    no 0.56  (tRNAscan-SE ID: chrXV.trna16) Gly 
+  (56) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrIII.trna6) Gln 
+  (57) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrIV.trna6) Gln (
+  (58) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrIV.trna25) Gln 
+  (59) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrIV.trna23) Gln 
+  (60) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrV.trna6) Gln (T
+  (61) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrVIII.trna2) Gln
+  (62) ?     0.013   16.9   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7       1     72 +  cm    no 0.51  (tRNAscan-SE ID: chrXII.trna19) Gln
+  (63) ?     0.014   16.7   0.0  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1       1     73 +  cm    no 0.60  (tRNAscan-SE ID: chrI.trna2) Ala (T
+  (64) ?     0.014   16.7   0.0  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2       1     73 +  cm    no 0.60  (tRNAscan-SE ID: chrV.trna16) Ala (
+  (65) ?     0.014   16.7   0.0  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3       1     73 +  cm    no 0.60  (tRNAscan-SE ID: chrVII.trna17) Ala
+  (66) ?     0.014   16.7   0.0  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4       1     73 +  cm    no 0.60  (tRNAscan-SE ID: chrXII.trna20) Ala
+  (67) ?     0.014   16.7   0.0  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5       1     73 +  cm    no 0.60  (tRNAscan-SE ID: chrXV.trna14) Ala 
+  (68) ?     0.016   16.5   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1       1     72 +  cm    no 0.47  (tRNAscan-SE ID: chrII.trna7) Gln (
+  (69) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXV.trna15) Val 
+  (70) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrV.trna8) Val (A
+  (71) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10      2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXII.trna15) Val
+  (72) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11      2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXIII.trna16) Va
+  (73) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12      2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXIII.trna14) Va
+  (74) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13      2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXIII.trna11) Va
+  (75) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrV.trna9) Val (A
+  (76) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrVII.trna36) Val
+  (77) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrVII.trna31) Val
+  (78) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrVII.trna18) Val
+  (79) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrVIII.trna11) Va
+  (80) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrX.trna6) Val (A
+  (81) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXI.trna13) Val 
+  (82) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9       2     73 +  cm    no 0.53  (tRNAscan-SE ID: chrXI.trna6) Val (
+  (83) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrII.trna5) Thr (
+  (84) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10      1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrXV.trna1) Thr (
+  (85) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11      1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrXV.trna17) Thr 
+  (86) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrIII.trna5) Thr 
+  (87) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrIV.trna28) Thr 
+  (88) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrVIII.trna10) Th
+  (89) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrIX.trna1) Thr (
+  (90) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrIX.trna5) Thr (
+  (91) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrX.trna24) Thr (
+  (92) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrXIV.trna2) Thr 
+  (93) ?     0.026   15.7   0.0  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9       1     73 +  cm    no 0.48  (tRNAscan-SE ID: chrXIV.trna12) Thr
+  (94) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrIV.trna10) Tyr 
+  (95) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrVI.trna3) Tyr (
+  (96) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrVI.trna5) Tyr (
+  (97) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrX.trna3) Tyr (G
+  (98) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrX.trna13) Tyr (
+  (99) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrXIII.trna1) Tyr
+ (100) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrXIII.trna7) Tyr
+ (101) ?     0.058   14.3   0.0  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8       3     75 +  cm    no 0.56  (tRNAscan-SE ID: chrXV.trna5) Tyr (
+ (102) ?      0.23   11.8   0.0  Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1       1     72 +  cm    no 0.46  (tRNAscan-SE ID: chrV.trna19) Gln (
+
+
+Hit alignments:
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1  (tRNAscan-SE ID: chrII.trna13) Gly (GCC) 71 bp mature sequence Sc: 62.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (1) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-1 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10  (tRNAscan-SE ID: chrX.trna18) Gly (GCC) 71 bp mature sequence Sc: 62.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (2) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-10 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11  (tRNAscan-SE ID: chrX.trna9) Gly (GCC) 71 bp mature sequence Sc: 62.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (3) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-11 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12  (tRNAscan-SE ID: chrXIII.trna20) Gly (GCC) 71 bp mature sequence Sc: 62.0
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (4) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-12 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13  (tRNAscan-SE ID: chrXV.trna19) Gly (GCC) 71 bp mature sequence Sc: 62.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (5) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-13 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14  (tRNAscan-SE ID: chrXV.trna4) Gly (GCC) 71 bp mature sequence Sc: 62.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (6) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-14 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15  (tRNAscan-SE ID: chrXVI.trna1) Gly (GCC) 71 bp mature sequence Sc: 62.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (7) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-15 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16  (tRNAscan-SE ID: chrXVI.trna8) Gly (GCC) 71 bp mature sequence Sc: 62.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (8) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGC 68
+                                                *******************.************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G:+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-16 69 GCA 71
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2  (tRNAscan-SE ID: chrIII.trna8) Gly (GCC) 71 bp mature sequence Sc: 62.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+   (9) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-2 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3  (tRNAscan-SE ID: chrIV.trna1) Gly (GCC) 71 bp mature sequence Sc: 62.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (10) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-3 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4  (tRNAscan-SE ID: chrIV.trna11) Gly (GCC) 71 bp mature sequence Sc: 62.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (11) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-4 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5  (tRNAscan-SE ID: chrV.trna20) Gly (GCC) 71 bp mature sequence Sc: 62.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (12) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-5 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6  (tRNAscan-SE ID: chrVI.trna2) Gly (GCC) 71 bp mature sequence Sc: 62.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (13) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-6 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7  (tRNAscan-SE ID: chrVI.trna8) Gly (GCC) 71 bp mature sequence Sc: 62.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (14) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-7 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8  (tRNAscan-SE ID: chrVII.trna19) Gly (GCC) 71 bp mature sequence Sc: 62.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (15) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-8 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9  (tRNAscan-SE ID: chrVII.trna22) Gly (GCC) 71 bp mature sequence Sc: 62.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (16) !    0.0025   19.8   0.0  cm        1       72 []           1          71 + [] 0.99    no 0.58
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  :::+ U  U +:::  C:AC:UUG CA+:GU:G    CCC::UU  +UU::GGG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9  1 GCGCAAGUGGUUUAGUGGU-AAAAUCCAACGUUGCCAUCGUUGGGCCCCCGGUUCGAUUCCGGGCUUGCG 69
+                                               *******************.************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-GCC-1-9 70 CA 71
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-1  (tRNAscan-SE ID: chrV.trna5) His (GTG) 72 bp mature sequence Sc: 57.7 chrV
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (17) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-1  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-1 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-2  (tRNAscan-SE ID: chrV.trna15) His (GTG) 72 bp mature sequence Sc: 57.7 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (18) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-2  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-2 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-3  (tRNAscan-SE ID: chrVII.trna35) His (GTG) 72 bp mature sequence Sc: 57.7 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (19) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-3  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-3 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-4  (tRNAscan-SE ID: chrVII.trna4) His (GTG) 72 bp mature sequence Sc: 57.7 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (20) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-4  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-4 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-5  (tRNAscan-SE ID: chrVIII.trna1) His (GTG) 72 bp mature sequence Sc: 57.7 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (21) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-5  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-5 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-6  (tRNAscan-SE ID: chrXI.trna12) His (GTG) 72 bp mature sequence Sc: 57.7 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (22) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-6  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-6 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-His-GTG-1-7  (tRNAscan-SE ID: chrXIII.trna4) His (GTG) 72 bp mature sequence Sc: 57.7 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (23) !    0.0029   19.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::C:U+::::+ U  UU+::::+C::C:UUGU +C:G::G+++ CC: :UU  +UU: :GG:G::GG
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-7  1 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAACCCUGGUUCGAUUCUAGGAGAUGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-His-GTG-1-7 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1  (tRNAscan-SE ID: chrIV.trna21) Glu (CTC) 72 bp mature sequence Sc: 56.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (24) !    0.0041   18.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.58
+
+                                                    v      v        v                                           v     NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC:: :U+::: ++    U+ :::+:CAC:UU UCAC:GUG:+ + C::::UU  + U::::G: ::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1  1 UCCGAUGUAGUGUAACGGCUAUCACAUCACGUUCUCACCGUGGAGACCGGGGUUCGACUCCCCGCUUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-1 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2  (tRNAscan-SE ID: chrIX.trna2) Glu (CTC) 72 bp mature sequence Sc: 56.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (25) !    0.0041   18.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.58
+
+                                                    v      v        v                                           v     NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC:: :U+::: ++    U+ :::+:CAC:UU UCAC:GUG:+ + C::::UU  + U::::G: ::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2  1 UCCGAUGUAGUGUAACGGCUAUCACAUCACGUUCUCACCGUGGAGACCGGGGUUCGACUCCCCGCUUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-CTC-1-2 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1  (tRNAscan-SE ID: chrII.trna10) Glu (TTC) 72 bp mature sequence Sc: 60.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (26) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-1 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10  (tRNAscan-SE ID: chrX.trna23) Glu (TTC) 72 bp mature sequence Sc: 60.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (27) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                            v        v                                                NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::G
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCG 69
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G: 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-10 70 GAG 72
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11  (tRNAscan-SE ID: chrXI.trna15) Glu (TTC) 72 bp mature sequence Sc: 60.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (28) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                            v        v                                                NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::G
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCG 69
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G: 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-11 70 GAG 72
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12  (tRNAscan-SE ID: chrXII.trna9) Glu (TTC) 72 bp mature sequence Sc: 60.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (29) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                            v        v                                                NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::G
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCG 69
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G: 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-12 70 GAG 72
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13  (tRNAscan-SE ID: chrXVI.trna16) Glu (TTC) 72 bp mature sequence Sc: 60.3 
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (30) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                            v        v                                                NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::G
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCG 69
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                G: 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-13 70 GAG 72
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2  (tRNAscan-SE ID: chrIII.trna10) Glu (TTC) 72 bp mature sequence Sc: 60.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (31) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-2 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3  (tRNAscan-SE ID: chrV.trna4) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrV
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (32) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-3 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4  (tRNAscan-SE ID: chrV.trna7) Glu (TTC) 72 bp mature sequence Sc: 60.3 chrV
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (33) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-4 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5  (tRNAscan-SE ID: chrV.trna12) Glu (TTC) 72 bp mature sequence Sc: 60.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (34) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-5 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6  (tRNAscan-SE ID: chrVII.trna5) Glu (TTC) 72 bp mature sequence Sc: 60.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (35) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-6 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7  (tRNAscan-SE ID: chrVII.trna32) Glu (TTC) 72 bp mature sequence Sc: 60.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (36) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-7 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8  (tRNAscan-SE ID: chrVII.trna9) Glu (TTC) 72 bp mature sequence Sc: 60.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (37) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-8 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9  (tRNAscan-SE ID: chrIX.trna6) Glu (TTC) 72 bp mature sequence Sc: 60.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (38) !    0.0053   18.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC::::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G::::GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAUCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-1-9 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1  (tRNAscan-SE ID: chrIV.trna17) Gly (CCC) 72 bp mature sequence Sc: 75.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (39) !    0.0059   18.3   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.57
+
+                                                  v                                                               v   NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C: :::U  ::C+ U  UU+G:: UC:::CUU  CA+G:::G    CC:::UU  +UU:::GG::: :G
+  Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1  1 GCGAAAGUGGUUCAGUGGUUAGAAUUCAUGCUUCCCAAGCAUGGGGCCCGGGUUCGAUUCCCGGCUUCCG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-CCC-2-1 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1  (tRNAscan-SE ID: chrIV.trna3) Ala (AGC) 73 bp mature sequence Sc: 69.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (40) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-1 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10  (tRNAscan-SE ID: chrXIII.trna9) Ala (AGC) 73 bp mature sequence Sc: 69.6 
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (41) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                     v                                                            v   NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>)))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuuggggggggg 68
+                                                :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCG 69
+                                                ****************9999************************999********************** PP
+
+                                                     NC
+                                                ))): CS
+                        AnticodonLoop_Sliced 69 gggu 72
+                                                 ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-10 70 UCCA 73
+                                                **** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11  (tRNAscan-SE ID: chrXVI.trna7) Ala (AGC) 73 bp mature sequence Sc: 69.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (42) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                     v                                                            v   NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>)))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuuggggggggg 68
+                                                :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCG 69
+                                                ****************9999************************999********************** PP
+
+                                                     NC
+                                                ))): CS
+                        AnticodonLoop_Sliced 69 gggu 72
+                                                 ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-11 70 UCCA 73
+                                                **** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2  (tRNAscan-SE ID: chrVI.trna6) Ala (AGC) 73 bp mature sequence Sc: 69.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (43) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-2 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3  (tRNAscan-SE ID: chrVII.trna15) Ala (AGC) 73 bp mature sequence Sc: 69.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (44) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-3 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4  (tRNAscan-SE ID: chrVIII.trna8) Ala (AGC) 73 bp mature sequence Sc: 69.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (45) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-4 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5  (tRNAscan-SE ID: chrX.trna22) Ala (AGC) 73 bp mature sequence Sc: 69.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (46) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-5 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6  (tRNAscan-SE ID: chrXI.trna4) Ala (AGC) 73 bp mature sequence Sc: 69.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (47) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-6 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7  (tRNAscan-SE ID: chrXI.trna9) Ala (AGC) 73 bp mature sequence Sc: 69.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (48) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-7 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8  (tRNAscan-SE ID: chrXII.trna16) Ala (AGC) 73 bp mature sequence Sc: 69.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (49) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-8 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9  (tRNAscan-SE ID: chrXIII.trna17) Ala (AGC) 73 bp mature sequence Sc: 69.6 
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (50) !    0.0061   18.2   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.64
+
+                                                    v                                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C: :U :C::+ U   U+::G: C::CCUU +CA+GG::G+    :CC::UU  +UU::GG:: :G 
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9  1 GGGCGUGUGGCGUAGUCGGUAGCGCGCUCCCUUAGCAUGGGAGAGGuCUCCGGUUCGAUUCCGGACUCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-AGC-1-9 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1  (tRNAscan-SE ID: chrXIII.trna2) Glu (TTC) 72 bp mature sequence Sc: 52.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (51) !    0.0067   18.1   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.57
+
+                                                   v       v        v                                            v    NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :CC: ::U+::: ++    U+ :::+:CAC:+U+UCAC:GUG:+ + C::::UU  + U::::G:: :GG
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1  1 UCCGAUAUAGUGUAACGGCUAUCACAUCACGCUUUCACCGUGGAGACCGGGGUUCGACUCCCCGUAGCGG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               : 
+  Saccharomyces_cerevisiae_tRNA-Glu-TTC-2-1 71 AG 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1  (tRNAscan-SE ID: chrVII.trna16) Gly (TCC) 72 bp mature sequence Sc: 58.7 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (52) !    0.0068   18.0   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.57
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               : :C:::U+ :: + U  UU+ ::  CCACC+U+ CA+GGUGG  + :C: :UU  +UU: :G::::G: 
+  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1  1 GGGCGGUUAGUGUAGUGGUUAUCAUCCCACCCUUCCAAGGUGGGGACACGGGUUCGAUUCUCGUACCGCU 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-1 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2  (tRNAscan-SE ID: chrXIV.trna14) Gly (TCC) 72 bp mature sequence Sc: 58.7 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (53) !    0.0068   18.0   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.57
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               : :C:::U+ :: + U  UU+ ::  CCACC+U+ CA+GGUGG  + :C: :UU  +UU: :G::::G: 
+  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2  1 GGGCGGUUAGUGUAGUGGUUAUCAUCCCACCCUUCCAAGGUGGGGACACGGGUUCGAUUCUCGUACCGCU 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-2 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3  (tRNAscan-SE ID: chrXV.trna20) Gly (TCC) 72 bp mature sequence Sc: 58.7 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (54) !    0.0068   18.0   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.57
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               : :C:::U+ :: + U  UU+ ::  CCACC+U+ CA+GGUGG  + :C: :UU  +UU: :G::::G: 
+  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3  1 GGGCGGUUAGUGUAGUGGUUAUCAUCCCACCCUUCCAAGGUGGGGACACGGGUUCGAUUCUCGUACCGCU 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-TCC-1-3 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1  (tRNAscan-SE ID: chrXV.trna16) Gly (CCC) 72 bp mature sequence Sc: 79.7 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (55) ?     0.012   17.0   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.56
+
+                                                                                                                      NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :C:C:::U  ::C+ U  UU+G:: U::::CUU  CA+G::::+   CC:::UU  +UU:::GG:::G:G
+  Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1  1 GCGCAAGUGGUUCAGUGGUUAGAAUUUAUGCUUCCCAAGCAUGAGGCCCGGGUUCGAUUCCCGGCUUGCG 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :+
+  Saccharomyces_cerevisiae_tRNA-Gly-CCC-1-1 71 CA 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1  (tRNAscan-SE ID: chrIII.trna6) Gln (TTG) 72 bp mature sequence Sc: 65.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (56) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-1 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2  (tRNAscan-SE ID: chrIV.trna6) Gln (TTG) 72 bp mature sequence Sc: 65.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (57) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-2 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3  (tRNAscan-SE ID: chrIV.trna25) Gln (TTG) 72 bp mature sequence Sc: 65.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (58) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-3 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4  (tRNAscan-SE ID: chrIV.trna23) Gln (TTG) 72 bp mature sequence Sc: 65.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (59) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-4 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5  (tRNAscan-SE ID: chrV.trna6) Gln (TTG) 72 bp mature sequence Sc: 65.3 chrV
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (60) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-5 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6  (tRNAscan-SE ID: chrVIII.trna2) Gln (TTG) 72 bp mature sequence Sc: 65.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (61) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-6 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7  (tRNAscan-SE ID: chrXII.trna19) Gln (TTG) 72 bp mature sequence Sc: 65.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (62) ?     0.013   16.9   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.51
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::CC::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::GG::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7  1 GGUCCUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAGGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-2-7 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1  (tRNAscan-SE ID: chrI.trna2) Ala (TGC) 73 bp mature sequence Sc: 76.0 chrI
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (63) ?     0.014   16.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.60
+
+                                                   v                                                              v   NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C C:U :C:C+ UU  U+G:G: C::CC+U++CA+GG::G+    ::C::UU  +UU::G:::G G 
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1  1 GGGCACAUGGCGCAGUUGGUAGCGCGCUUCCCUUGCAAGGAAGAGGuCAUCGGUUCGAUUCCGGUUGCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-1 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2  (tRNAscan-SE ID: chrV.trna16) Ala (TGC) 73 bp mature sequence Sc: 76.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (64) ?     0.014   16.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.60
+
+                                                   v                                                              v   NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C C:U :C:C+ UU  U+G:G: C::CC+U++CA+GG::G+    ::C::UU  +UU::G:::G G 
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2  1 GGGCACAUGGCGCAGUUGGUAGCGCGCUUCCCUUGCAAGGAAGAGGuCAUCGGUUCGAUUCCGGUUGCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-2 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3  (tRNAscan-SE ID: chrVII.trna17) Ala (TGC) 73 bp mature sequence Sc: 76.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (65) ?     0.014   16.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.60
+
+                                                   v                                                              v   NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C C:U :C:C+ UU  U+G:G: C::CC+U++CA+GG::G+    ::C::UU  +UU::G:::G G 
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3  1 GGGCACAUGGCGCAGUUGGUAGCGCGCUUCCCUUGCAAGGAAGAGGuCAUCGGUUCGAUUCCGGUUGCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-3 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4  (tRNAscan-SE ID: chrXII.trna20) Ala (TGC) 73 bp mature sequence Sc: 76.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (66) ?     0.014   16.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.60
+
+                                                   v                                                              v   NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C C:U :C:C+ UU  U+G:G: C::CC+U++CA+GG::G+    ::C::UU  +UU::G:::G G 
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4  1 GGGCACAUGGCGCAGUUGGUAGCGCGCUUCCCUUGCAAGGAAGAGGuCAUCGGUUCGAUUCCGGUUGCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-4 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5  (tRNAscan-SE ID: chrXV.trna14) Ala (TGC) 73 bp mature sequence Sc: 76.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (67) ?     0.014   16.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.60
+
+                                                   v                                                              v   NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :: C C:U :C:C+ UU  U+G:G: C::CC+U++CA+GG::G+    ::C::UU  +UU::G:::G G 
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5  1 GGGCACAUGGCGCAGUUGGUAGCGCGCUUCCCUUGCAAGGAAGAGGuCAUCGGUUCGAUUCCGGUUGCGU 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               ::+
+  Saccharomyces_cerevisiae_tRNA-Ala-TGC-1-5 71 CCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1  (tRNAscan-SE ID: chrII.trna7) Gln (TTG) 72 bp mature sequence Sc: 63.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (68) ?     0.016   16.5   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.47
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::::::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::::::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1  1 GGUUUUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGGACAACCCCGGUUCGAAUCCGGGUAAGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-3-1 71 CU 72
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1  (tRNAscan-SE ID: chrXV.trna15) Val (AAC) 74 bp mature sequence Sc: 66.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (69) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-2-1 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1  (tRNAscan-SE ID: chrV.trna8) Val (AAC) 74 bp mature sequence Sc: 67.6 chrV
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (70) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-1 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10  (tRNAscan-SE ID: chrXII.trna15) Val (AAC) 74 bp mature sequence Sc: 67.6 
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (71) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                         v              v                        vvv       vvv        NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                 :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAA 70
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                :  
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-10 71 AUC 73
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11  (tRNAscan-SE ID: chrXIII.trna16) Val (AAC) 74 bp mature sequence Sc: 67.6
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (72) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                         v              v                        vvv       vvv        NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                 :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAA 70
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                :  
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-11 71 AUC 73
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12  (tRNAscan-SE ID: chrXIII.trna14) Val (AAC) 74 bp mature sequence Sc: 67.6
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (73) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                         v              v                        vvv       vvv        NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                 :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAA 70
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                :  
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-12 71 AUC 73
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13  (tRNAscan-SE ID: chrXIII.trna11) Val (AAC) 74 bp mature sequence Sc: 67.6
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (74) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                         v              v                        vvv       vvv        NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>))))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuugggggggggg 69
+                                                 :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAA 70
+                                                ****************9999************************99*********************** PP
+
+                                                    NC
+                                                )): CS
+                        AnticodonLoop_Sliced 70 ggu 72
+                                                :  
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-13 71 AUC 73
+                                                *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2  (tRNAscan-SE ID: chrV.trna9) Val (AAC) 74 bp mature sequence Sc: 67.6 chrV
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (75) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-2 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3  (tRNAscan-SE ID: chrVII.trna36) Val (AAC) 74 bp mature sequence Sc: 67.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (76) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-3 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4  (tRNAscan-SE ID: chrVII.trna31) Val (AAC) 74 bp mature sequence Sc: 67.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (77) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-4 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5  (tRNAscan-SE ID: chrVII.trna18) Val (AAC) 74 bp mature sequence Sc: 67.6 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (78) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-5 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6  (tRNAscan-SE ID: chrVIII.trna11) Val (AAC) 74 bp mature sequence Sc: 67.6 
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (79) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-6 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7  (tRNAscan-SE ID: chrX.trna6) Val (AAC) 74 bp mature sequence Sc: 67.6 chrX
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (80) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-7 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8  (tRNAscan-SE ID: chrXI.trna13) Val (AAC) 74 bp mature sequence Sc: 67.6 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (81) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-8 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9  (tRNAscan-SE ID: chrXI.trna6) Val (AAC) 74 bp mature sequence Sc: 67.6 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (82) ?     0.026   15.7   0.0  cm        1       72 []           2          73 + .. 0.99    no 0.53
+
+                                                        v              v                        vvv       vvv         NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                                :::C::   C:: U   UU+::G +:C::CUU  CACG::G:+  UCC    UU  +U   GG::G:::
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9  2 GUUUCGUGGUCUAGUCGGUUAUGGCAUCUGCUUAACACGCAGAACGUCCCCAGUUCGAUCCUGGGCGAAA 71
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                                 
+  Saccharomyces_cerevisiae_tRNA-Val-AAC-1-9 72 UC 73
+                                               ** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1  (tRNAscan-SE ID: chrII.trna5) Thr (AGT) 73 bp mature sequence Sc: 76.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (83) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-1 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10  (tRNAscan-SE ID: chrXV.trna1) Thr (AGT) 73 bp mature sequence Sc: 76.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (84) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                            v        v                                                NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>)))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuuggggggggg 68
+                                                :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G:
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGA 69
+                                                ****************9999************************999********************** PP
+
+                                                     NC
+                                                ))): CS
+                        AnticodonLoop_Sliced 69 gggu 72
+                                                :G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-10 70 AGCA 73
+                                                **** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11  (tRNAscan-SE ID: chrXV.trna17) Thr (AGT) 73 bp mature sequence Sc: 76.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (85) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                            v        v                                                NC
+                                                (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>)))) CS
+                        AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuuggggggggg 68
+                                                :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G:
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGA 69
+                                                ****************9999************************999********************** PP
+
+                                                     NC
+                                                ))): CS
+                        AnticodonLoop_Sliced 69 gggu 72
+                                                :G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-11 70 AGCA 73
+                                                **** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2  (tRNAscan-SE ID: chrIII.trna5) Thr (AGT) 73 bp mature sequence Sc: 76.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (86) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-2 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3  (tRNAscan-SE ID: chrIV.trna28) Thr (AGT) 73 bp mature sequence Sc: 76.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (87) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-3 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4  (tRNAscan-SE ID: chrVIII.trna10) Thr (AGT) 73 bp mature sequence Sc: 76.0 
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (88) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-4 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5  (tRNAscan-SE ID: chrIX.trna1) Thr (AGT) 73 bp mature sequence Sc: 76.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (89) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-5 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6  (tRNAscan-SE ID: chrIX.trna5) Thr (AGT) 73 bp mature sequence Sc: 76.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (90) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-6 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7  (tRNAscan-SE ID: chrX.trna24) Thr (AGT) 73 bp mature sequence Sc: 76.0 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (91) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-7 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8  (tRNAscan-SE ID: chrXIV.trna2) Thr (AGT) 73 bp mature sequence Sc: 76.0 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (92) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-8 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9  (tRNAscan-SE ID: chrXIV.trna12) Thr (AGT) 73 bp mature sequence Sc: 76.0 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (93) ?     0.026   15.7   0.0  cm        1       72 []           1          73 + [] 0.99    no 0.48
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               :C::C::U :CC + UU  U+ GG: CCAC:+U + A+:GUGG+ +  ::C::UU +++U::G::::G::
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9  1 GCUUCUAUGGCCAAGUUGGUAAGGCGCCACACUAGUAAUGUGGAGAuCAUCGGUUCAAAUCCGAUUGGAA 70
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               G:+
+  Saccharomyces_cerevisiae_tRNA-Thr-AGT-1-9 71 GCA 73
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1  (tRNAscan-SE ID: chrIV.trna10) Tyr (GTA) 75 bp mature sequence Sc: 61.3 ch
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (94) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-1 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2  (tRNAscan-SE ID: chrVI.trna3) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (95) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-2 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3  (tRNAscan-SE ID: chrVI.trna5) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (96) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-3 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4  (tRNAscan-SE ID: chrX.trna3) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chrX
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (97) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-4 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5  (tRNAscan-SE ID: chrX.trna13) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (98) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-5 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6  (tRNAscan-SE ID: chrXIII.trna1) Tyr (GTA) 75 bp mature sequence Sc: 61.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+  (99) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-6 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7  (tRNAscan-SE ID: chrXIII.trna7) Tyr (GTA) 75 bp mature sequence Sc: 61.3 c
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+ (100) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-7 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8  (tRNAscan-SE ID: chrXV.trna5) Tyr (GTA) 75 bp mature sequence Sc: 61.3 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+ (101) ?     0.058   14.3   0.0  cm        1       72 []           3          75 + .] 0.99    no 0.56
+
+                                                  vvvv  vvvv        vvvv                                        vvvv  NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,.,<<<<<_______>>>>>))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuu.ucccccuuuuuuugggggggggg 69
+                                               C:C          UU  UUU+     C:A::+UGU A+::U:G+ +  :::C:UU  + U:G:::    G
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8  3 CUCGGUAGCCAAGUUGGUUUAAGGCGCAAGACUGUAAAUCUUGAGAuCGGGCGUUCGACUCGCCCCCGGG 72
+                                               ****************9999************************999*********************** PP
+
+                                                   NC
+                                               )): CS
+                       AnticodonLoop_Sliced 70 ggu 72
+                                               :G+
+  Saccharomyces_cerevisiae_tRNA-Tyr-GTA-1-8 73 AGA 75
+                                               *** PP
+
+>> Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1  (tRNAscan-SE ID: chrV.trna19) Gln (TTG) 72 bp mature sequence Sc: 67.4 chr
+  rank     E-value  score  bias mdl mdl from   mdl to       seq from      seq to       acc trunc   gc
+ -----   --------- ------ ----- --- -------- --------    ----------- -----------      ---- ----- ----
+ (102) ?      0.23   11.8   0.0  cm        1       72 []           1          72 + [] 0.99    no 0.46
+
+                                                           v        v                                                 NC
+                                               (((((((,,<<<<________>>>>,<<<<<_______>>>>>,,,,<<<<<_______>>>>>)))))) CS
+                       AnticodonLoop_Sliced  1 cccccccuuccccuuuuuuuugggguccaccUUgucAcggugguuuucccccuuuuuuuggggggggggg 70
+                                               :::::::U+::: + U  UU+ :::U:::::UU+U A+::::: ++ CCC::UU  ++U::GGG::::::
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1  1 GGUUUUAUAGUGUAGUGGUUAUCACUUUCGGUUUUGAUCCGAACAACCCCGGUUCGAAUCCGGGUAAGAC 70
+                                               ****************9999************************99************************ PP
+
+                                                  NC
+                                               ): CS
+                       AnticodonLoop_Sliced 71 gu 72
+                                               :U
+  Saccharomyces_cerevisiae_tRNA-Gln-TTG-1-1 71 CU 72
+                                               ** PP
+
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query model(s):                                                  1  (72 consensus positions)
+Target sequences:                                              275  (40742 residues searched)
+Target sequences re-searched for truncated hits:               275  (122226 residues re-searched)
+Windows   passing  local HMM SSV           filter:             669  (0.2989); expected (0.35)
+Windows   passing  local HMM Viterbi       filter:                  (off)
+Windows   passing  local HMM Viterbi  bias filter:                  (off)
+Windows   passing  local HMM Forward       filter:             599  (0.2666); expected (0.02)
+Windows   passing  local HMM Forward  bias filter:             592  (0.2635); expected (0.02)
+Windows   passing glocal HMM Forward       filter:             434  (0.1927); expected (0.02)
+Windows   passing glocal HMM Forward  bias filter:             434  (0.1927); expected (0.02)
+Envelopes passing glocal HMM envelope defn filter:             433  (0.1904); expected (0.02)
+Envelopes passing  local CM  CYK           filter:             239  (0.1059); expected (0.0001)
+Total CM hits reported:                                        102  (0.04562); includes 1 truncated hit(s)
+
+# CPU time: 28.57u 0.02s 00:00:28.59 Elapsed: 00:00:28.58
+//
+[ok]
