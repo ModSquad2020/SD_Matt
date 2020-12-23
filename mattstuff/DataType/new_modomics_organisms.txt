@@ -1,0 +1,77 @@
+Saccharomyces cerevisiae
+Didelphis virginiana
+Azospirillum lipoferum
+Brassica napus
+Thermoplasma acidophilum
+Asterina amurensis
+Lactococcus lactis
+Cucumis sativus
+Mycoplasma capricolum
+Oryctolagus cuniculus
+Oenothera sp.
+Zea mays
+Candida albicans
+Pisum sativum
+Bacillus subtilis
+Chlamydomonas reinhardtii
+Euglena gracilis
+Rhodospirillum rubrum
+Streptomyces coelicolor A3(2)
+Hordeum vulgare
+Xenopus laevis
+Spiroplasma citri
+Streptomyces griseus
+Salmo salar
+Staphylococcus epidermidis
+Halocynthia roretzi
+Avian myeloblastosis virus
+Tetrahymena thermophila
+Sulfolobus acidocaldarius
+Glycine max
+Bos taurus
+Triticum aestivum
+Ascaris suum
+Spinacia oleracea
+Synechococcus sp. PCC 7002
+Escherichia coli
+Haloferax volcanii
+Mycoplasma mycoides
+Bombyx mori
+Thermus thermophilus
+Codium fragile
+Schizosaccharomyces pombe
+Aedes albopictus
+Methanosarcina barkeri
+Euphausia superba
+Candida cylindracea
+Lupinus albus
+Gallus gallus
+Loligo bleekeri
+Lupinus luteus
+Mycobacterium smegmatis
+Pichia jadinii
+Halobacterium salinarum
+Mus musculus
+Enterobacteria phage T5
+Halococcus morrhuae
+Drosophila melanogaster
+Neurospora crassa
+Enterobacteria phage T4
+HIV-1
+Scenedesmus obliquus
+Salmonella typhimurium
+Nicotiana tabacum
+Nicotiana rustica
+Solanum tuberosum
+Geobacillus stearothermophilus
+Synechococcus elongatus PCC 6301
+Moloney murine leukemia virus
+Phaseolus vulgaris
+Asterias amurensis
+Methanobacterium thermaggregans
+Mesocricetus auratus
+Synechocystis sp.
+Homo sapiens
+Tetrahymena pyriformis
+Rattus norvegicus
+Ovis aries
